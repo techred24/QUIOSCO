@@ -1,0 +1,78 @@
+﻿<Page x:Class="Quiosco.NumeroConductor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Quiosco"
+      mc:Ignorable="d" d:DesignWidth="800"
+      Background="#fff"
+      Title="Numero de Conductor" Height="485">
+
+    <Grid Margin="0,0,0,-56">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Header -->
+        <StackPanel Grid.Row="0" Background="#003A70">
+            <Label Style="{StaticResource listHeaderTextStyle}">QUIOSCO DE DEPÓSITO</Label>
+            <Label Style="{StaticResource listHeaderTextStyle}">INGRESA TU NÚMERO DE CONDUCTOR</Label>
+        </StackPanel>
+
+        <!-- Main Section -->
+        <StackPanel Grid.Row="1"  HorizontalAlignment="Center" Margin="0,10,0,0">
+            <PasswordBox Width="178" Height="60" FontSize="70" Padding="0,0,0,0" BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5" RenderTransformOrigin="0.522,0.457"/>
+            <Grid Width="295">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Row="0" Grid.Column="1" Content="7" Style="{StaticResource KeypadButtonStyle}"/>
+                <Button Grid.Row="0" Grid.Column="2" Content="8" Style="{StaticResource KeypadButtonStyle}"/>
+                <Button Grid.Row="0" Grid.Column="3" Content="9" Style="{StaticResource KeypadButtonStyle}"/>
+                <Button Grid.Row="1" Grid.Column="1" Content="4" Style="{StaticResource KeypadButtonStyle}"/>
+                <Button Grid.Row="1" Grid.Column="2" Content="5" Style="{StaticResource KeypadButtonStyle}"/>
+                <Button Grid.Row="1" Grid.Column="3" Content="6" Style="{StaticResource KeypadButtonStyle}"/>
+                <Button Grid.Row="2" Grid.Column="1" Content="1" Style="{StaticResource KeypadButtonStyle}"/>
+                <Button Grid.Row="2" Grid.Column="2" Content="2" Style="{StaticResource KeypadButtonStyle}"/>
+                <Button Grid.Row="2" Grid.Column="3" Content="3" Style="{StaticResource KeypadButtonStyle}"/>
+                <!-- Custom Positioning for 0 -->
+                <Button Grid.Row="2" Grid.Column="0" Content="0" Style="{StaticResource KeypadButtonStyle}" />
+            </Grid>
+        </StackPanel>
+
+        <!-- Footer Buttons -->
+        <!--<DockPanel Grid.Row="2" VerticalAlignment="Bottom" Height="75">-->
+        <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" DockPanel.Dock="Bottom">-->
+        <Grid Grid.Row="2" Margin="0,20,0,20">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Ingresar con QR" Background="#2B5282" Foreground="White"   Margin="10, 0, 0, 0" Padding="50, 0, 50, 0"/>
+            <Button Grid.Column="2" Content="Ingresar" Background="#1B7FCC" Foreground="White" Width="140" Height="50" Margin="0, 0, 10, 0" Padding="15,0,15,0"/>
+        </Grid>
+        <!--</StackPanel>-->
+        <!--</DockPanel>-->
+
+        <!-- Footer -->
+        <DockPanel Grid.Row="3">
+            <Border DockPanel.Dock="Bottom" Background="#003A70" CornerRadius="30,30,0,0" Height="55" VerticalAlignment="Bottom">
+                <Button Content="AYUDA" Background="#C0DCF2" Foreground="#003A70" Width="140" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+        </DockPanel>
+    </Grid>
+</Page>

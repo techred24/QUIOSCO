@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiosco", "Quiosco\Quiosco.csproj", "{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E77B897-23EB-419F-A817-B80D9BE1F182}
+	EndGlobalSection
+EndGlobal
