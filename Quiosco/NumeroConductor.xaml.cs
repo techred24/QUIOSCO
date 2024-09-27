@@ -44,7 +44,12 @@ namespace Quiosco
         //{
         //    BaseAddress = new Uri("https://demo.bustrack.mx/smg/"),
         //};
-        
+        private void ingresar(object sender, RoutedEventArgs e)
+        {
+            UserControl componenteCargador = new Loader();
+            loader.Content = componenteCargador;
+            loader.Visibility = Visibility.Visible;
+        }
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             Detalle detallePage = new Detalle();

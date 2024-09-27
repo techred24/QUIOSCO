@@ -6,35 +6,38 @@
       xmlns:local="clr-namespace:Quiosco"
       mc:Ignorable="d" d:DesignWidth="800"
       Background="#fff"
-      Title="Numero de Conductor" Height="485">
+      Title="Numero de Conductor">
 
-    <Grid Margin="0,0,0,-56">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+       
         <!-- Header -->
-        <StackPanel Grid.Row="0" Background="#003A70">
-            <Label Style="{StaticResource listHeaderTextStyle}">QUIOSCO DE DEPÓSITO</Label>
-            <Label Style="{StaticResource listHeaderTextStyle}">INGRESA TU NÚMERO DE CONDUCTOR</Label>
-        </StackPanel>
+        <DockPanel Grid.Row="0">
+            <StackPanel DockPanel.Dock="Top" Background="#003A70" Margin="0,0,0,0">
+                <Label Style="{StaticResource listHeaderTextStyle}">QUIOSCO DE DEPÓSITO</Label>
+                <Label Style="{StaticResource listHeaderTextStyle}">INGRESA TU NÚMERO DE CONDUCTOR</Label>
+            </StackPanel>
+        </DockPanel>
 
         <!-- Main Section -->
-        <StackPanel Grid.Row="1"  HorizontalAlignment="Center" Margin="0,10,0,0">
-            <PasswordBox Width="178" Height="60" FontSize="70" Padding="0,0,0,0" BorderBrush="Black" BorderThickness="1" Margin="0,0,0,5" RenderTransformOrigin="0.522,0.457"/>
-            <Grid Width="295">
+        <StackPanel Grid.Row="1"  HorizontalAlignment="Center">
+            <PasswordBox Width="226" Height="83" FontSize="70" Padding="0,0,0,0" BorderBrush="Black" BorderThickness="1" Margin="0,10,0,15" RenderTransformOrigin="0.522,0.457"/>
+            <Grid Width="330" Height="211">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="60"/>
-                    <ColumnDefinition Width="60"/>
-                    <ColumnDefinition Width="60"/>
-                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="70"/>
                 </Grid.ColumnDefinitions>
                 <Button Grid.Row="0" Grid.Column="1" Content="7" Style="{StaticResource KeypadButtonStyle}"/>
                 <Button Grid.Row="0" Grid.Column="2" Content="8" Style="{StaticResource KeypadButtonStyle}"/>
@@ -63,7 +66,7 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <Button Grid.Column="0" Content="Ingresar con QR" Background="#2B5282" Foreground="White"   Margin="10, 0, 0, 0" Padding="50, 0, 50, 0"/>
-            <Button Grid.Column="2" Content="Ingresar" Background="#1B7FCC" Foreground="White" Width="140" Height="50" Margin="0, 0, 10, 0" Padding="15,0,15,0"/>
+            <Button Grid.Column="2" Click="ingresar" Content="Ingresar" Background="#1B7FCC" Foreground="White" Width="140" Height="50" Margin="0, 0, 10, 0" Padding="15,0,15,0"/>
         </Grid>
         <!--</StackPanel>-->
         <!--</DockPanel>-->
@@ -71,8 +74,18 @@
         <!-- Footer -->
         <DockPanel Grid.Row="3">
             <Border DockPanel.Dock="Bottom" Background="#003A70" CornerRadius="30,30,0,0" Height="55" VerticalAlignment="Bottom">
-                <Button Content="AYUDA" Background="#C0DCF2" Foreground="#003A70" Width="140" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Grid Margin="20, 0, 20 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Button Content="AYUDA" Background="#C0DCF2" Foreground="#003A70" Width="140" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Grid>
+
             </Border>
         </DockPanel>
+        <ContentControl Grid.Row="0" Grid.RowSpan="4" x:Name="loader" Visibility="Collapsed"  Opacity="1">
+            <!-- Aquí se cargará dinámicamente el loader -->
+        </ContentControl>
     </Grid>
 </Page>
