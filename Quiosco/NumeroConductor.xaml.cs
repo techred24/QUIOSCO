@@ -46,13 +46,66 @@ namespace Quiosco
         //};
         private void ingresar(object sender, RoutedEventArgs e)
         {
-            UserControl componenteCargador = new Loader();
-            loader.Content = componenteCargador;
-            loader.Visibility = Visibility.Visible;
+            string contrasenia = password.Password;
+            Detalle detallePage = new Detalle(contrasenia);
+            this.NavigationService.Navigate(detallePage);
+            //UserControl componenteCargador = new Loader();
+            //loader.Content = componenteCargador;
+            //loader.Visibility = Visibility.Visible;
+            //string rolesResponse = await apiClient.GetAsync("api/roles/");
+            //await Task.Run(() =>
+            //{
+            //    // Simulación de una operación (esperar 3 segundos)
+            //    System.Threading.Thread.Sleep(3000);
+
+            //    // Cuando termine la operación, ocultar el loader
+            //    Application.Current.Dispatcher.Invoke(() =>
+            //    {
+            //        loader.Visibility = Visibility.Collapsed;
+            //    });
+            //});
+        }
+        private void cero(object sender, RoutedEventArgs e)
+        {
+            password.Password += "0";
+        }
+        private void uno(object sender, RoutedEventArgs e) {
+            password.Password += "1";
+        }
+        private void dos(object sender, RoutedEventArgs e) {
+            password.Password += "2";
+        }
+        private void tres(object sender, RoutedEventArgs e)
+        {
+            password.Password += "3";
+        }
+        private void cuatro(object sender, RoutedEventArgs e)
+        {
+            password.Password += "4";
+        }
+        private void cinco(object sender, RoutedEventArgs e)
+        {
+            password.Password += "5";
+        }
+        private void seis(object sender, RoutedEventArgs e)
+        {
+            password.Password += "6";
+        }
+        private void siete(object sender, RoutedEventArgs e)
+        {
+            password.Password += "7";
+        }
+        private void ocho(object sender, RoutedEventArgs e)
+        {
+            password.Password += "8";
+        }
+        private void nueve(object sender, RoutedEventArgs e)
+        {
+            password.Password += "9";
         }
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            Detalle detallePage = new Detalle();
+            //Detalle detallePage = new Detalle();
             //this.NavigationService.Navigate(detallePage);
             //var that = this;
 

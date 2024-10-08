@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace Quiosco
 {
@@ -19,14 +20,20 @@ namespace Quiosco
     /// </summary>
     public partial class Detalle : Page
     {
-        public Detalle()
+        //private string contraseniaRecibida;
+        private string receivedPassword;
+        public Detalle(string contrasenia)
         {
             InitializeComponent();
+            receivedPassword = contrasenia;
+
+            MessageBox.Show("Contraseña recibida: " + receivedPassword);
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NumeroConductor numeroConductorPage = new NumeroConductor();
-            this.NavigationService.Navigate(numeroConductorPage);
+            //Trace.WriteLine("Contraseña recibida: " + receivedPassword);
+            //Debug.WriteLine("something----------------------------------------------------------------------------");
+            MessageBox.Show("Contraseña: " + receivedPassword);
         }
     }
 }
