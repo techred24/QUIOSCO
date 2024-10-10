@@ -11,16 +11,73 @@
     >
     <Grid Background="White">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="230" />
-            <ColumnDefinition />
+            <!--<ColumnDefinition Width="230" />
+            <ColumnDefinition />-->
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition />
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button Grid.Column="0" Grid.Row="0" Click="Button_Click" >Try</Button>
+        <!--<Button Grid.Column="0" Grid.Row="0" Click="Button_Click" >Try</Button>-->
+        <DockPanel Grid.Row="0">
+            <StackPanel DockPanel.Dock="Top" Background="#003A70" Margin="0,0,0,0">
+                <Label Style="{StaticResource listHeaderTextStyle}">APOLO ATM</Label>
+                <Label Style="{StaticResource listHeaderTextStyle}">BOLETAJE PENDIENTE DE RECAUDAR</Label>
+            </StackPanel>
+        </DockPanel>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="350" />
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--<Button Grid.Column="0">Click</Button>
+            <Button Grid.Column="1">Click 2</Button>-->
+            <StackPanel Grid.Column="0" Orientation="Vertical">
+                <Border Background="#C0DCF2" CornerRadius="12" Padding="5,18,17,18" Margin="15" BorderBrush="Black" BorderThickness="1" >
+                    <StackPanel>
+                        <TextBlock Text="Unidad" FontSize="15" FontWeight="Bold" TextAlignment="Center" />
+                        <TextBlock Text="U-1248" FontSize="25" FontWeight="Bold" TextAlignment="Center" />
+                    </StackPanel>
+                </Border>
+
+                <Border Background="#C0DCF2" CornerRadius="12" Padding="5,18,17,18" Margin="15" BorderBrush="Black" BorderThickness="1" >
+                    <StackPanel>
+                        <TextBlock Text="Vuelta" FontSize="15" FontWeight="Bold" TextAlignment="Center" />
+                        <TextBlock Text="2" FontSize="29" FontWeight="Bold" TextAlignment="Center" />
+                    </StackPanel>
+                </Border>
+
+                <Border Background="#1B7FCC" CornerRadius="12" Padding="5,18,17,18" Margin="15" BorderBrush="Black" BorderThickness="1" >
+                    <StackPanel>
+                        <TextBlock Text="Dif. Barras" FontSize="15" FontWeight="Bold" TextAlignment="Center" Foreground="White" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                            <StackPanel Margin="5">
+                                <TextBlock Text="2" FontSize="23" FontWeight="Bold" Foreground="White" TextAlignment="Center" />
+                                <TextBlock Text="V. Ant." FontSize="10" FontWeight="Bold" Foreground="White" TextAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Margin="5">
+                                <TextBlock Text="-" FontSize="23" FontWeight="Bold" Foreground="White" TextAlignment="Center" />
+                                <TextBlock Text="V. Act." FontSize="10" FontWeight="Bold" Foreground="White" TextAlignment="Center" />
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <Border Background="#7B8388" CornerRadius="12" Padding="5,18,17,18" Margin="15" BorderBrush="Black" BorderThickness="1" >
+                    <StackPanel>
+                        <TextBlock Text="Dif. Minutos" FontSize="15" FontWeight="Bold" TextAlignment="Center" Foreground="White" />
+                        <TextBlock Text="1*" FontSize="24" FontWeight="Bold" TextAlignment="Center" Foreground="White" />
+                        <TextBlock Text="Acumulados" FontSize="12" FontWeight="Bold" TextAlignment="Center" Foreground="White" />
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>
