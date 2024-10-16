@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\detalle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\detalle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\detalle.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\detalle.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\numeroconductor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\numeroconductor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\numeroconductor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\numeroconductor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\detalle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\detalle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\numeroconductor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\numeroconductor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -27,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|solutionrelative:quiosco\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2291E40C-7487-4AC8-8F6F-2FDFDAF4CF5B}|Quiosco\\Quiosco.csproj|c:\\users\\dell\\desktop\\vs-projects\\quiosco\\quiosco\\quiosco.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -54,11 +54,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Quiosco\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\App.xaml.cs",
+              "RelativeToolTip": "Quiosco\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T23:43:00.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detalle.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\Detalle.xaml.cs",
+              "RelativeDocumentMoniker": "Quiosco\\Detalle.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\Detalle.xaml.cs",
+              "RelativeToolTip": "Quiosco\\Detalle.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T00:44:52.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NumeroConductor.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\NumeroConductor.xaml.cs",
+              "RelativeDocumentMoniker": "Quiosco\\NumeroConductor.xaml.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\NumeroConductor.xaml.cs",
+              "RelativeToolTip": "Quiosco\\NumeroConductor.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T00:32:36.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\ApiClient.cs",
+              "RelativeDocumentMoniker": "Quiosco\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\ApiClient.cs*",
+              "RelativeToolTip": "Quiosco\\ApiClient.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T04:01:15.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Detalle.xaml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\Detalle.xaml",
               "RelativeDocumentMoniker": "Quiosco\\Detalle.xaml",
@@ -70,57 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\App.xaml",
-              "RelativeDocumentMoniker": "Quiosco\\App.xaml",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\App.xaml",
-              "RelativeToolTip": "Quiosco\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-31T02:57:41.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Quiosco\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\App.xaml.cs",
-              "RelativeToolTip": "Quiosco\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T23:43:00.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Detalle.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\Detalle.xaml.cs",
-              "RelativeDocumentMoniker": "Quiosco\\Detalle.xaml.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\Detalle.xaml.cs",
-              "RelativeToolTip": "Quiosco\\Detalle.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T00:44:52.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NumeroConductor.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\NumeroConductor.xaml.cs",
-              "RelativeDocumentMoniker": "Quiosco\\NumeroConductor.xaml.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\NumeroConductor.xaml.cs",
-              "RelativeToolTip": "Quiosco\\NumeroConductor.xaml.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAC4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T00:32:36.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "NumeroConductor.xaml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\NumeroConductor.xaml",
               "RelativeDocumentMoniker": "Quiosco\\NumeroConductor.xaml",
@@ -132,38 +134,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\App.xaml",
+              "RelativeDocumentMoniker": "Quiosco\\App.xaml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\App.xaml",
+              "RelativeToolTip": "Quiosco\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-31T02:57:41.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Quiosco\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\MainWindow.xaml.cs",
               "RelativeToolTip": "Quiosco\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwBsAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T21:59:03.982Z"
+              "WhenOpened": "2024-08-29T21:59:03.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Quiosco\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\MainWindow.xaml",
               "RelativeToolTip": "Quiosco\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-29T21:59:04.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\ApiClient.cs",
-              "RelativeDocumentMoniker": "Quiosco\\ApiClient.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\ApiClient.cs",
-              "RelativeToolTip": "Quiosco\\ApiClient.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T04:01:15.438Z"
+              "WhenOpened": "2024-08-29T21:59:04.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -174,7 +178,8 @@
               "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\Quiosco.csproj",
               "RelativeToolTip": "Quiosco\\Quiosco.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-08T00:54:27.922Z"
+              "WhenOpened": "2024-10-08T00:54:27.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -185,7 +190,8 @@
               "ToolTip": "C:\\Users\\DELL\\Desktop\\vs-projects\\Quiosco\\Quiosco\\Loader.xaml",
               "RelativeToolTip": "Quiosco\\Loader.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-27T04:35:25.376Z"
+              "WhenOpened": "2024-09-27T04:35:25.376Z",
+              "EditorCaption": ""
             }
           ]
         }

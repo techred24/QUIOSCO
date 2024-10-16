@@ -47,8 +47,14 @@ namespace Quiosco
         private void ingresar(object sender, RoutedEventArgs e)
         {
             string contrasenia = password.Password;
+            if (string.IsNullOrEmpty(contrasenia))
+            {
+                MessageBox.Show("Ingrese su PIN");
+                return;
+            }
             Detalle detallePage = new Detalle(contrasenia);
             this.NavigationService.Navigate(detallePage);
+
             //UserControl componenteCargador = new Loader();
             //loader.Content = componenteCargador;
             //loader.Visibility = Visibility.Visible;
@@ -149,7 +155,8 @@ namespace Quiosco
             //using HttpResponseMessage rolesResponse = await baseUrl.GetAsync("api/roles/");
             //var stringResponseForRoles = await rolesResponse.Content.ReadAsStringAsync();
             //label.Content = stringResponseForRoles;
-            string rolesResponse = await apiClient.GetAsync("api/roles/");
+
+            //HttpResponseMessage rolesResponse = await apiClient.GetAsync("api/roles/");
             //label.Content = rolesResponse;
 
 

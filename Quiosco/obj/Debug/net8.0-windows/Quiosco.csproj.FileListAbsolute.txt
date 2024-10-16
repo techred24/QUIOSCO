@@ -26,3 +26,6 @@ C:\Users\DELL\Desktop\vs-projects\Quiosco\Quiosco\obj\Debug\net8.0-windows\Numer
 C:\Users\DELL\Desktop\vs-projects\Quiosco\Quiosco\obj\Debug\net8.0-windows\Loader.g.cs
 C:\Users\DELL\Desktop\vs-projects\Quiosco\Quiosco\obj\Debug\net8.0-windows\Loader.baml
 C:\Users\DELL\Desktop\vs-projects\Quiosco\Quiosco\obj\Debug\net8.0-windows\Quiosco.sourcelink.json
+C:\Users\DELL\Desktop\vs-projects\Quiosco\Quiosco\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\vs-projects\Quiosco\Quiosco\obj\Debug\net8.0-windows\Quiosco.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\vs-projects\Quiosco\Quiosco\obj\Debug\net8.0-windows\Quiosco.csproj.Up2Date

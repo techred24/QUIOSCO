@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Diagnostics;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace Quiosco
 {
@@ -20,18 +22,61 @@ namespace Quiosco
     /// </summary>
     public partial class Detalle : Page
     {
+        //private ApiClient apiClient;
         //private string contraseniaRecibida;
         private string receivedPassword;
         public Detalle(string contrasenia)
         {
             InitializeComponent();
+            //private static HttpClient baseUrl = new HttpClient();
             AgregarFilasDinamicamente();
             receivedPassword = contrasenia;
-
+            //apiClient = new ApiClient();
             //MessageBox.Show("Contraseña recibida: " + receivedPassword);
+            _ = HacerPeticionGetAsync();
+        }
+        private async Task HacerPeticionGetAsync()
+        {
+            try
+            {
+                // Instanciar el cliente API
+                ApiClient apiClient = new ApiClient();
 
-            // Asigna la lista de datos al DataGrid
-            //MiDataGridBoletaje.ItemsSource = boletaje;
+                // Realizar la petición GET
+                //string endpoint = "api/operador/informacionvuelta/05987";
+                string endpoint = $"api/operador/informacionvuelta/{receivedPassword}";
+                HttpResponseMessage respuesta = await apiClient.GetAsync(endpoint);
+
+                int codigoEstado = (int)respuesta.StatusCode;
+                MessageBox.Show("Código de Estado: " + codigoEstado);
+                string stringResponse = await respuesta.Content.ReadAsStringAsync();
+                MessageBox.Show("Respuesta: " + stringResponse);
+                //ProcesarRespuesta(stringResponse);
+            }
+            catch (Exception ex)
+            {
+                // Manejar cualquier error que ocurra durante la petición
+                MessageBox.Show("Error al realizar la petición: " + ex.Message);
+            }
+        }
+        private void ProcesarRespuesta(string jsonResponse)
+        {
+            try
+            {
+                // Deserializar la respuesta JSON en un objeto de tipo InformacionVuelta
+                InformacionVuelta? informacionVuelta = JsonConvert.DeserializeObject<InformacionVuelta>(jsonResponse);
+
+                // Ahora puedes acceder a las propiedades del objeto
+                MessageBox.Show("Tarifa: " + informacionVuelta?.Vendidos[0].Tarifa);
+                MessageBox.Show("Cantidad: " + informacionVuelta?.Vendidos[0].Cantidad);
+                //MessageBox.Show("Unidad: " + informacionVuelta?.Unidad);
+                //MessageBox.Show("Total boletos: " + informacionVuelta?.Totalboletos);
+                // Puedes seguir accediendo a otras propiedades del objeto como desees
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al deserializar el JSON: " + ex.Message);
+            }
         }
         private void AgregarFilasDinamicamente()
         {
@@ -131,19 +176,39 @@ namespace Quiosco
             Grid.SetColumn(textBlockImporte2, 2);
             Test.Children.Add(textBlockImporte2);
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //Trace.WriteLine("Contraseña recibida: " + receivedPassword);
-            //Debug.WriteLine("something----------------------------------------------------------------------------");
-            MessageBox.Show("Contraseña: " + receivedPassword);
-        }
     }
+}
+public class Vendido
+{
+    public int Tarifa { get; set; }
+    public int Cantidad { get; set; }
+}
 
-    public class Boletaje
-    {
-        public string? Tarifa { get; set; }
-        public int Cantidad { get; set; }
-        public string? Importe { get; set; }
-    }
+public class DiferenciaBarras
+{
+    public string? _id { get; set; }
+    public int Nvuelta { get; set; }
+    public int Difbarras { get; set; }
+    public bool BarrasCobradas { get; set; }
+}
+
+public class DiferenciaMinutos
+{
+    public int Nvuelta { get; set; }
+    public int Difminutos { get; set; }
+    public bool MinutosCobrados { get; set; }
+}
+
+public class InformacionVuelta
+{
+    public string? _id { get; set; }
+    public string? Unidad { get; set; }
+    public int Totalboletos { get; set; }
+    public int Totalimporte { get; set; }
+    public int Tarifabarras { get; set; }
+    public int Tarifaminutos { get; set; }
+    public List<Vendido>? Vendidos { get; set; }
+    public int Vueltaactual { get; set; }
+    public List<DiferenciaBarras>? DiferenciaBarras { get; set; }
+    public List<DiferenciaMinutos>? DiferenciaMinutos { get; set; }
 }
