@@ -78,6 +78,124 @@
                     </StackPanel>
                 </Border>
             </StackPanel>
+            
+            <StackPanel Grid.Column="1" Orientation="Vertical">
+                <Grid x:Name="Test" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Título -->
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Boletaje" FontSize="24" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,10" />
+
+                    <!-- Encabezado -->
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Tarifa" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="Cantidad" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="1" Grid.Column="2" Text="Importe" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+
+                    <!-- Filas de datos -->
+                    <!--<TextBlock Grid.Row="Debe ir antes de Grid.Row="2" y después de Grid.Row="1"" Grid.Column="0" Text="$11.00" FontSize="14" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="Debe ir antes de Grid.Row="2" y después de Grid.Row="1" " Grid.Column="1" Text="37" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="Debe ir antes de Grid.Row="2" y después de Grid.Row="1" " Grid.Column="2" Text="$407.00" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+
+                    <TextBlock Grid.Row="Debe ir antes de Grid.Row="2" y después de Grid.Row="1" " Grid.Column="0" Text="$9.00" FontSize="14" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="Debe ir antes de Grid.Row="2" y después de Grid.Row="1" " Grid.Column="1" Text="19" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="Debe ir antes de Grid.Row="2" y después de Grid.Row="1" " Grid.Column="2" Text="$171.00" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />-->
+
+                    <!-- Total -->
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="Total:" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="2" Grid.Column="2" Text="$578.00" FontSize="15" FontWeight="Bold" Background="#1B7FCC" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                </Grid>
+
+
+
+                <Grid x:Name="Boletaje" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Título -->
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Boletaje" FontSize="24" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,10" />
+
+                    <!-- Encabezado -->
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Tarifa" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="Cantidad" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="1" Grid.Column="2" Text="Importe" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+
+                    <!-- Filas de datos -->
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="$11.00" FontSize="14" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="37" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="2" Grid.Column="2" Text="$407.00" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="$9.00" FontSize="14" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="3" Grid.Column="1" Text="19" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="3" Grid.Column="2" Text="$171.00" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+
+                    <!-- Total -->
+                    <TextBlock Grid.Row="4" Grid.Column="1" Text="Total:" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="4" Grid.Column="2" Text="$578.00" FontSize="15" FontWeight="Bold" Background="#1B7FCC" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                </Grid>
+
+                <Grid x:Name="Diferencias" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Título -->
+                    <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Diferencias" FontSize="24" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,10" />
+
+                    <!-- Encabezado -->
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Diferencia" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="Cantidad" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="1" Grid.Column="2" Text="Importe" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+
+                    <!-- Filas de datos -->
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Barras v. ant." FontSize="14" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="2" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="2" Grid.Column="2" Text="$22.00" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Barras v. act." FontSize="14" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="3" Grid.Column="1" Text="-" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="3" Grid.Column="2" Text="-" FontSize="14" Background="#C0DCF2" Padding="9,10" TextAlignment="Center" />
+
+                    <!-- Total de filas -->
+                    <!--<TextBlock Grid.Row="4" Grid.Column="0" Text="" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,0" TextAlignment="Center" />-->
+                    <TextBlock Grid.Row="4" Grid.Column="1" Text="Total:" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="4" Grid.Column="2" Text="$22.00" FontSize="15" FontWeight="Bold" Background="#1B7FCC" Foreground="White" Padding="9,10" TextAlignment="Center" />
+
+                    <!-- Total a depositar -->
+                    <TextBlock Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Text="Total a depositar:" FontSize="27" FontWeight="Bold" TextAlignment="Right" Padding="10,0" />
+                    <TextBlock Grid.Row="5" Grid.Column="2" Text="$600.00" FontSize="22" FontWeight="Bold" TextAlignment="Center" Padding="10,0" />
+                </Grid>
+
+
+            </StackPanel>
         </Grid>
     </Grid>
 </Page>
