@@ -101,7 +101,7 @@
                     <TextBlock Grid.Row="1" Grid.Column="2" Text="Importe" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
                     <!-- Total -->
                     <TextBlock Grid.Row="2" Grid.Column="1" Text="Total:" FontSize="15" FontWeight="Bold" Background="#003A70" Foreground="White" Padding="9,10" TextAlignment="Center" />
-                    <TextBlock Grid.Row="2" Grid.Column="2" Text="$578.00" FontSize="15" FontWeight="Bold" Background="#1B7FCC" Foreground="White" Padding="9,10" TextAlignment="Center" />
+                    <TextBlock Grid.Row="2" Grid.Column="2" Text="" FontSize="15" FontWeight="Bold" Background="#1B7FCC" Foreground="White" Padding="9,10" TextAlignment="Center" x:Name="TotalBoletaje"/>
                 </Grid>
 
 

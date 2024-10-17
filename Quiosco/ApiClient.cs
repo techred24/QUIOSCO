@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 public class ApiClient
 {
-    private readonly HttpClient _httpClient;
+    private static  HttpClient? _httpClient;
     private readonly string _token;
 
     // Constructor para inicializar el HttpClient y el token
